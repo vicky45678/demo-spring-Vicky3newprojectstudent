@@ -1,12 +1,11 @@
 package model;
 
-public class Employeemodel {
+public class Studentmodel {
     String name;
     int age;
     String dept;
-    //papametrzed constructor
 
-    public Employeemodel(String name, int age, String dept) {
+    public Studentmodel(String name, int age, String dept) {
         this.name = name;
         this.age = age;
         this.dept = dept;
@@ -36,3 +35,4 @@ public class Employeemodel {
         this.dept = dept;
     }
 }
+
